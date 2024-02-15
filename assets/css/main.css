@@ -248,6 +248,9 @@ input, select, textarea {
 		align-items: center;
 		margin-top: 20px; /* Ajusta el margen superior según sea necesario */
 	}
+	.headerText-container{
+		text-align: center;
+	}
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
