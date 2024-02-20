@@ -11,6 +11,25 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	<script>
+		// Obtén todos los elementos con la clase "work-item"
+		var workItems = document.querySelectorAll('.work-item');
+	
+		// Itera sobre cada elemento y agrega un evento de clic
+		workItems.forEach(function(item) {
+			item.addEventListener('click', function() {
+				// Oculta todas las descripciones de proyectos
+				var projectDescriptions = document.querySelectorAll('.project-description');
+				projectDescriptions.forEach(function(description) {
+					description.style.display = 'none';
+				});
+	
+				// Muestra la descripción del proyecto actual
+				var currentDescription = item.querySelector('.project-description');
+				currentDescription.style.display = 'block';
+			});
+		});
+	</script>
 	<body class="is-preload">
 
 		<!-- Header -->
@@ -36,22 +55,31 @@
 						<ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul> -->
-						<div class="icon-container">
+						<!--<div class="icon-container">
 							<ul class="icons">
 								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
 								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
+						</div> -->
+
+						<div class="icon-container">
+							<ul class="icons">
+								<li><a href="https://github.com/tu_usuario" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/tu_usuario" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+								<li><a href="https://twitter.com/tu_usuario" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="https://tu_usuario.itch.io/" target="_blank" rel="noopener noreferrer"><i class="fab fa-itch-io"></i></a></li>
+							</ul>
 						</div>
 					</section>
 
 				<!-- Two -->
 					<section id="two">
-						<h2>Code</h2>
+						<h2>My Work</h2>
 						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+							<article class="col-6 col-12-xsmall work-item" id="project1">
+								<a href="images/fulls/01.jpg" class="image fit thumb"> <img src="images/thumbs/01.jpg" alt="" /></a>
 								<h3>Magna sed consequat tempus</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
