@@ -6,10 +6,11 @@
 -->
 <html>
 	<head>
-		<title>Strata by HTML5 UP</title>
+		<title>Mario Garcia Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
 	<script>
 		// Obtén todos los elementos con la clase "work-item"
@@ -77,7 +78,61 @@
 				<!-- Two -->
 					<section id="two">
 						<h2>My Work</h2>
-						<div class="row">
+
+						<!-- Nueva Grid-->
+						
+						<div class="grid-container">
+							<article class="project" onclick="openPopup('popup1')">
+								<img src="images/fulls/01.jpg" alt="Proyecto 1">
+								<h3>Proyecto 1</h3>
+							</article>
+							<article class="project" onclick="openPopup('popup2')">
+								<img src="images/fulls/02.jpg" alt="Proyecto 2">
+								<h3>Proyecto 2</h3>
+							</article>	
+						</div>
+						
+
+						 <!-- Pop ups -->
+						<div id="popup1" class="popup">
+							<div class="popup-content">
+								<span class="close" onclick="closePopup('popup1')">&times;</span>
+								<h3>Fransiiiiis</h3> <!-- Titulo -->
+
+								<img src="images/fulls/01.jpg" alt="Proyecto 1"> <!-- Main Image -->
+								<p>Información detallada sobre el Proyecto 1.</p>  <!-- Description -->
+
+								<div class="project-grid">   <!-- More Images -->
+									<div class="popup-image">
+										<img src="images/fulls/01.jpg" alt="Proyecto 1">
+										<h3>Proyecto 1</h3>
+									</div>
+									<div class="popup-image">
+										<img src="images/fulls/01.jpg" alt="Proyecto 1">
+										<h3>Proyecto 1</h3>
+									</div>
+									<div class="popup-image">
+										<video controls loop autoplay muted>
+											<source src="Video/video 01.mp4">
+										</video>
+										<h3>Proyecto 1</h3>
+									</div>
+									
+									
+								</div>
+								
+							</div>
+						</div>
+						<div id="popup2" class="popup">
+							<div class="popup-content">
+								<span class="close" onclick="closePopup('popup2')">&times;</span>
+								<h3>Proyecto 2</h3>
+								<p>Información detallada sobre el Proyecto 2.</p>
+							</div>
+						</div>
+						
+						<!-- Antigua Grid-->
+						<!--<div class="row">
 							<article class="col-6 col-12-xsmall work-item" id="project1">
 								<a href="images/fulls/01.jpg" class="image fit thumb"> <img src="images/thumbs/01.jpg" alt="" /></a>
 								<h3>Flappy Bird</h3>
@@ -108,7 +163,7 @@
 								<h3>Risus ornare lacinia</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
-						</div>
+						</div>-->
 						<ul class="actions">
 							<li><a href="#" class="button">Full Portfolio</a></li>
 						</ul>
@@ -494,6 +549,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<!-- Nuevo Script -->
+			<script src="assets/js/script.js"></script>
 
 	</body>
 </html>
