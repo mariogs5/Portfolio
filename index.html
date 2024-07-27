@@ -36,7 +36,10 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<div class="avatar-container">
+						<img src="images/Avatar.jpg" alt="Avatar" class="avatar">
+					</div>
+					<!--<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>-->
 					<h1><strong>I am Mario</strong>, a videogame design & development student in <a href="https://www.citm.upc.edu/?gad_source=1&gclid=EAIaIQobChMIvf20iPCshAMVca-DBx2QWQWTEAAYASAAEgLiyPD_BwE">CITM UPC.</a> <br /></h1>
 				</div>
 			</header>
@@ -47,7 +50,9 @@
 				<!-- One -->
 					<section id="one">
 						<div class="headerText-container">
-							<h1>Welcome to my website!</h1>
+							<h1>Welcome to my Portfolio!</h1>
+							<p>Developer in C# and C++. I'm mainly a gameplay programmer but I also like low level programming. Interested in improving my skills as a gameplay programmer since that's what I want to do professionally. </p>
+							<h2>Socials:</h2>
 						</div>
 						<!--<header class="major">
 							<h2>Welcome to my website!</h2>
@@ -69,7 +74,6 @@
 							<ul class="icons">
 								<li><a href="https://github.com/mariogs5" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
 								<li><a href="https://www.linkedin.com/in/tu_usuario" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
-								<li><a href="https://twitter.com/tu_usuario" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
 								<li><a href="https://tu_usuario.itch.io/" target="_blank" rel="noopener noreferrer"><i class="fab fa-itch-io"></i></a></li>
 							</ul>
 						</div>
@@ -83,8 +87,8 @@
 						
 						<div class="grid-container">
 							<article class="project" onclick="openPopup('popup1')">
-								<img src="images/fulls/01.jpg" alt="Proyecto 1">
-								<h3>Proyecto 1</h3>
+								<img src="images/Projects/Alien/Alien Extraction.jpg" alt="Proyecto 1">
+								<h3>Alien Extraction</h3>
 							</article>
 							<article class="project" onclick="openPopup('popup2')">
 								<img src="images/fulls/02.jpg" alt="Proyecto 2">
@@ -97,12 +101,88 @@
 						<div id="popup1" class="popup">
 							<div class="popup-content">
 								<span class="close" onclick="closePopup('popup1')">&times;</span>
-								<h3>Fransiiiiis</h3> <!-- Titulo -->
+								<h3>Alien Extraction</h3> <!-- Titulo -->
+							
+								<div class="row">
+									<div class="column video">
+										<iframe src="https://www.youtube.com/embed/8LsSLKn95OM?si=ZoNmL-VZv5cvaMM1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									</div>
+									<div class="column description">
+										<p>Alien Extraction is a videogame made in 4 months for the Project 3 subject on the third year of Videogame Design & Development degree.</p>
+										<p>The goal of this project was to emulate a professional video game studio, aiming to develop a game based on the guidelines provided by the product owners, who, in this case, were our teachers.</p>
+										<p>We had four months to deliver a complete and polished demo of the game, with progress submissions every two weeks. The product owners guidelines specified creating a DIABLO-like game set in the ALIEN universe. </p>
+									</div>
+								</div>
 
-								<img src="images/fulls/01.jpg" alt="Proyecto 1"> <!-- Main Image -->
-								<p>Información detallada sobre el Proyecto 1.</p>  <!-- Description -->
+								<div class="detailed-info">
+									<p>I had the privilege of working within the Code Team, where I was in charge of these tasks:</p>
+									<p>- Audio Module Implementation: I integrated the Wwise audio engine into our custom game engine. This involved ensuring that sound effects and music responded accurately to in-game events, and optimizing audio performance for a seamless auditory experience.</p>
+									<p>- Main Character Implementation: I was responsible for developing and implementing the main character in the game. This included coding movement mechanics, combat abilities, and interaction systems. My work ensured that the main character was responsive, fluid, and engaging to control.</p>
+								</div>
 
-								<div class="project-grid">   <!-- More Images -->
+								<!--<div class="image-gallery">
+									<div class="image-gallery-item"><img src="img1.jpg" alt="Image 1"></div>
+									<div class="image-gallery-item"><img src="img2.jpg" alt="Image 2"></div>
+									<div class="image-gallery-item"><img src="img3.jpg" alt="Image 3"></div>
+								</div>-->
+								
+								<div class="single-video-gallery">
+									<iframe src="https://www.youtube.com/embed/X8vteixGQ-8?si=iP6VmDk4Bt1FWIYx" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+								</div>
+
+								<div class="video-gallery">
+									<div class="video-gallery-item">
+										<iframe src="https://www.youtube.com/embed/7YwWKK-nb_4?si=eDy3eFbiLEdegFSP" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class="video-gallery-item">
+										<iframe src="https://www.youtube.com/embed/zJKONlemOEo?si=Du-KOuFJ7zNnZcwm" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class="video-gallery-item">
+										<iframe src="https://www.youtube.com/embed/cNI75r2KhHk?si=ehBgWpcGnhIMzPlO" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class="video-gallery-item">
+										<iframe src="https://www.youtube.com/embed/80-X47W2Bt0?si=xVjJ5HjYU00YhEjF" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</div>
+
+								<div class="row">
+
+									<div class="project-link">
+										<a href="https://clapcom-studios.github.io/Website/index.html" target="_blank">
+											<i class="fas fa-globe"></i> Alien Extraction Website
+										</a>
+									</div>
+									<div class="project-link">
+										<a href="https://github.com/Clapcom-Studios/Alien-Extraction" target="_blank">
+											<i class="fab fa-github"></i> Github Repository
+										</a>
+									</div>
+								</div>
+								
+
+							</div>
+						</div>
+
+						<div id="popup2" class="popup">
+							<div class="popup-content">
+								<span class="close" onclick="closePopup('popup2')">&times;</span>
+								<h3>Proyecto 2</h3>
+								<p>Información detallada sobre el Proyecto 2.</p>
+							</div>
+						</div>
+
+						<!-- Pop up template -->
+						<!--<div id="popup1" class="popup">
+							<div class="popup-content">
+								<span class="close" onclick="closePopup('popup1')">&times;</span>
+								<h3>Alien Extraction</h3> 
+								
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/8LsSLKn95OM?si=ZoNmL-VZv5cvaMM1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+								
+								<img src="images/fulls/01.jpg" alt="Proyecto 1"> 
+								<p>Información detallada sobre el Proyecto 1.</p>  
+
+								<div class="project-grid">   
 									<div class="popup-image">
 										<img src="images/fulls/01.jpg" alt="Proyecto 1">
 										<h3>Proyecto 1</h3>
@@ -122,14 +202,7 @@
 								</div>
 								
 							</div>
-						</div>
-						<div id="popup2" class="popup">
-							<div class="popup-content">
-								<span class="close" onclick="closePopup('popup2')">&times;</span>
-								<h3>Proyecto 2</h3>
-								<p>Información detallada sobre el Proyecto 2.</p>
-							</div>
-						</div>
+						</div>-->
 						
 						<!-- Antigua Grid-->
 						<!--<div class="row">
@@ -164,16 +237,16 @@
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
 						</div>-->
-						<ul class="actions">
+						<!--<ul class="actions">
 							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
+						</ul></-->
 					</section>
 
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
 						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
-						<div class="row">
+						<!--<div class="row">
 							<div class="col-8 col-12-small">
 								<form method="post" action="#">
 									<div class="row gtr-uniform gtr-50">
@@ -185,22 +258,17 @@
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
-							</div>
+							</div></-->
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
 									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										1234 Somewhere Rd.<br />
-										Nashville, TN 00000<br />
-										United States
+										<h3 class="fab fa-linkedin"><span class="label"></span></h3>
+										<a href="https://www.linkedin.com/in/tu_usuario">My Linkedin Page</a>
 									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										000-000-0000
-									</li>
+
 									<li>
 										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">hello@untitled.tld</a>
+										<a href="#">mariogs.153@gmail.com</a>
 									</li>
 								</ul>
 							</div>
@@ -531,9 +599,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fab fa-linkedin"><span class="label"></span></a></li>
 						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
