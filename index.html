@@ -72,8 +72,8 @@
 						<div class="icon-container">
 							<ul class="icons">
 								<li><a href="https://github.com/mariogs5" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
-								<li><a href="https://www.linkedin.com/in/tu_usuario" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
-								<li><a href="https://tu_usuario.itch.io/" target="_blank" rel="noopener noreferrer"><i class="fab fa-itch-io"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/mario-garcía-sutil-7086072b2/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+								<li><a href="https://itch.io/profile/balun" target="_blank" rel="noopener noreferrer"><i class="fab fa-itch-io"></i></a></li>
 							</ul>
 						</div>
 					</section>
@@ -85,14 +85,20 @@
 						<!-- Nueva Grid-->
 						
 						<div class="grid-container">
-							<article class="project" onclick="openPopup('popup1')">
+							<div class="project" onclick="openPopup('popup1')">
 								<img src="images/Projects/Alien/Alien Extraction.jpg" alt="Proyecto 1">
 								<h3>Alien Extraction</h3>
-							</article>
-							<article class="project" onclick="openPopup('popup2')">
-								<img src="images/fulls/02.jpg" alt="Proyecto 2">
-								<h3>Proyecto 2</h3>
-							</article>	
+							</div>
+
+							<div class="project" onclick="openPopup('popup2')">
+								<img src="images/Projects/EscapeRoom VR/escapeRoom VR.png" alt="Proyecto 2">
+								<h3>EscapeRoom VR</h3>
+							</div>	
+					
+							<div class="project" onclick="openPopup('popup3')">
+								<img src="images/Projects/AI Unity Scene/AI Unity Scene.png" alt="Proyecto 3">
+								<h3>AI Unity Scene</h3>
+							</div>	
 						</div>
 						
 
@@ -108,7 +114,7 @@
 									</div>
 									<div class="column description">
 										<p>Alien Extraction is a videogame made in 4 months for the Project 3 subject on the third year of Videogame Design & Development degree.</p>
-										<p>The goal of this project was to emulate a professional video game studio, aiming to develop a game based on the guidelines provided by the product owners, who, in this case, were our teachers.</p>
+										<p>The goal of this project was to emulate a professional video game studio, aiming to develop a game based on the guidelines provided by the product owners, who, in this case, were our teachers using our custom game engine Ymir Engine.</p>
 										<p>We had four months to deliver a complete and polished demo of the game, with progress submissions every two weeks. The product owners guidelines specified creating a DIABLO-like game set in the ALIEN universe. </p>
 									</div>
 								</div>
@@ -144,8 +150,11 @@
 									</div>
 								</div>
 
-								<div class="row">
+								<div class="flex">
+									<h3>More Info:</h3>
+								</div>
 
+								<div class="row">
 									<div class="project-link">
 										<a href="https://clapcom-studios.github.io/Website/index.html" target="_blank">
 											<i class="fas fa-globe"></i> Alien Extraction Website
@@ -162,12 +171,117 @@
 							</div>
 						</div>
 
+						<div id="popup3" class="popup">
+							<div class="popup-content">
+								<span class="close" onclick="closePopup('popup3')">&times;</span>
+								<h3>AI Unity Scene</h3> <!-- Titulo -->
+							
+								<div class="row">
+									<div class="column video">
+										<iframe src="https://www.youtube.com/embed/uGpDCMXt6SE?si=hlQQn7GHwIE8Wa0r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									</div>
+									<div class="column description">
+										<p>AI Unity Scene is a project made on Unity using some AI techniques for the Artificial intelligence subject on the third year of Videogame Design & Development degree.</p>
+										<p>The goal of this project was to create a Unity scene using as many techniques as you can.</p>
+									</div>
+								</div>
+
+								<div class="detailed-info">
+									<p>Techniques used in this project:</p>
+									<p>- Wander. </p>
+									<p>- Seek. </p>
+									<p>- Ghost Patrolling. </p>
+									<p>- Flocking. </p>
+									<p>- Behaviour Trees (Using the Behaviour Briks Unity package). </p>
+									<p>- Formation Motion</p>
+								</div>
+
+								<div class="image-gallery">
+									<div class="image-gallery-item"><img src="images/Projects/AI Unity Scene/Scene View.png" alt="Image 1"><p>Patrolling</p></div>
+									<div class="image-gallery-item"><img src="images/Projects/AI Unity Scene/Wander.png" alt="Image 2"><p>Wander</p></div>
+									<div class="image-gallery-item"><img src="images/Projects/AI Unity Scene/Flocking.png" alt="Image 3"><p>Flocking</p></div>
+								</div>
+
+								<div class="flex">
+									<h3>More Info:</h3>
+								</div>
+
+								<div class="row">
+									<div class="project-link">
+										<a href="https://github.com/mariogs5/IA-Scene-Development-Project" target="_blank">
+											<i class="fab fa-github"></i> Github Repository
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<div id="popup2" class="popup">
 							<div class="popup-content">
 								<span class="close" onclick="closePopup('popup2')">&times;</span>
-								<h3>Proyecto 2</h3>
-								<p>Información detallada sobre el Proyecto 2.</p>
-							</div>
+								<h3>EscapeRoom VR</h3> <!-- Titulo -->
+							
+								<div class="row">
+									<div class="column video">
+										<iframe src="https://www.youtube.com/embed/UC7KYmIxw4A?si=XUZSLxitPARkJWTT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									</div>
+									<div class="column description">
+										<p>Escape Room VR is a Virtual Reality prototype with Hand Tracking made on Unity using XR Interaction Toolkit and XR Hands for the Augmented Reality subject on the third year of Videogame Design & Development degree.</p>
+										<p>The goal of this project was to create VR prototype in less than a month using all the concepts given on the subject </p>
+										<p>EscapeRoom VR puts you in the shoes of a patient in a psychiatric hospital who is not mentally ill and should not be there. Your goal is to pass the tests they propose and try to prove that you are not ill and they are wrong.</p>
+									</div>
+								</div>
+
+								<div class="detailed-info">
+									<p>In this project I worked mainly as a programmer but also as a designer and this are the tasks I was in charge:</p>
+									<p>- Make the XR Interaction Toolkit & XR Hands implementation along with my teammate Francesc.</p>
+									<p>- 3rd Room Puzzles redesign and implementation.</p>
+									<p>- Main menu and transition mechanic design and implementation.</p>
+								</div>
+
+								<div class="image-gallery">
+									<div class="image-gallery-item"><img src="images/Projects/EscapeRoom VR/main Menu.png" alt="Image 1"><p>Main Menu</p></div>
+									<div class="image-gallery-item"><img src="images/Projects/EscapeRoom VR/transition Mechanic.png" alt="Image 2"><p>Transition Mechanic</p></div>
+									<div class="image-gallery-item"><img src="images/Projects/EscapeRoom VR/3rd Room Puzzle 1.png" alt="Image 3"><p>3rd Room Puzzle 1</p></div>
+									<div class="image-gallery-item"><img src="images/Projects/EscapeRoom VR/3rd Room Puzzle 2.png" alt="Image 4"><p>3rd Room Puzzle 2</p></div>
+								</div>
+								
+								<!--<div class="single-video-gallery">
+									<iframe src="https://www.youtube.com/embed/X8vteixGQ-8?si=iP6VmDk4Bt1FWIYx" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+								</div>-->
+
+								<!--<div class="video-gallery">
+									<div class="video-gallery-item">
+										<iframe src="https://www.youtube.com/embed/7YwWKK-nb_4?si=eDy3eFbiLEdegFSP" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class="video-gallery-item">
+										<iframe src="https://www.youtube.com/embed/zJKONlemOEo?si=Du-KOuFJ7zNnZcwm" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class="video-gallery-item">
+										<iframe src="https://www.youtube.com/embed/cNI75r2KhHk?si=ehBgWpcGnhIMzPlO" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class="video-gallery-item">
+										<iframe src="https://www.youtube.com/embed/80-X47W2Bt0?si=xVjJ5HjYU00YhEjF" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</div>-->
+
+								<div class="flex">
+									<h3>More Info:</h3>
+								</div>
+
+								<div class="row">
+									<div class="project-link">
+										<!--<a href="https://clapcom-studios.github.io/Website/index.html" target="_blank">
+											<i class="fas fa-globe"></i> Alien Extraction Website
+										</a>
+									</div>-->
+									<div class="project-link">
+										<a href="https://github.com/francesctr4/EscapeRoomVR" target="_blank">
+											<i class="fab fa-github"></i> Github Repository
+										</a>
+									</div>
+								</div>
+							</div>	
 						</div>
 
 						<!-- Pop up template -->
@@ -244,7 +358,6 @@
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 						<!--<div class="row">
 							<div class="col-8 col-12-small">
 								<form method="post" action="#">
@@ -262,7 +375,7 @@
 								<ul class="labeled-icons">
 									<li>
 										<h3 class="fab fa-linkedin"><span class="label"></span></h3>
-										<a href="https://www.linkedin.com/in/tu_usuario">My Linkedin Page</a>
+										<a href="https://www.linkedin.com/in/mario-garcía-sutil-7086072b2/">My Linkedin Page</a>
 									</li>
 
 									<li>
@@ -598,9 +711,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-						<li><a href="#" class="icon brands fab fa-linkedin"><span class="label"></span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://www.linkedin.com/in/mario-garcía-sutil-7086072b2/" class="icon brands fab fa-linkedin"><span class="label"></span></a></li>
+						<li><a href="https://github.com/mariogs5" class="icon brands fa-github"><span class="label">Github</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>

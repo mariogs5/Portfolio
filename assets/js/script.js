@@ -1,9 +1,15 @@
 function openPopup(popupId) {
-    document.getElementById(popupId).style.display = "block";
-    document.body.classList.add("no-scroll");
+    var popup = document.getElementById(popupId);
+    if (popup) {
+        popup.style.display = "block";
+        document.body.classList.add("no-scroll");
+    }
 }
 
 function closePopup(popupId) {
-    document.getElementById(popupId).style.display = "none";
-    document.body.classList.remove("no-scroll");
+    var popup = document.getElementById(popupId);
+    if (popup) {
+        popup.style.display = "none";
+        document.body.classList.remove("no-scroll");
+    }
 }
