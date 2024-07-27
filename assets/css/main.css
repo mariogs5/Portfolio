@@ -2142,19 +2142,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.image.avatar {
-			border-radius: 100%;
-		}
-
-			.image.avatar:before {
-				display: none;
-			}
-
-			.image.avatar img {
-				border-radius: 100%;
-				width: 100%;
-			}
-
 /* List */
 
 	ol {
@@ -2646,11 +2633,6 @@ input, select, textarea {
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
-		}
-
-		#header .image.avatar {
-			margin: 0 0 1em 0;
-			width: 6.25em;
 		}
 
 /* Footer */
